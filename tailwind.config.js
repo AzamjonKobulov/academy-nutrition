@@ -28,8 +28,8 @@ export default {
         "30px": "1.875rem",
       },
       backgroundImage: {
-        hero: "url('/public/images/bg-hero.png')",
-        "hero-mobile": "url('/public/images/bg-hero-mobile.png')",
+        hero: "url('/assets/images/bg-hero.png')",
+        "hero-mobile": "url('/assets/images/bg-hero-mobile.png')",
       },
       boxShadow: {
         dropdown: "0px 4px 8px 0px #00000026",
