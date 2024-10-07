@@ -10,7 +10,7 @@ export default function Hero() {
         </h1>
         {/* Image */}
         <img
-          src="/public/assets/images/img-hero.png"
+          src="/public/images/img-hero.png"
           alt="Image"
           className="hidden sm:block w-[360px] h-[590px] md:w-80 md:h-[520px] lg:w-[413px] lg:h-[676px] 3xl:w-auto 3xl:h-auto absolute bottom-0 right-0 md:right-10 lg:left-1/2 lg:-translate-x-1/3"
         />
@@ -26,7 +26,7 @@ export default function Hero() {
 
           <div className="sm:max-w-80 xl:max-w-72 2xl:max-w-[31.0625rem] flex gap-5 xl:gap-30px">
             <img
-              src="/public/assets/images/img-usa-flag.svg"
+              src="/public/images/img-usa-flag.svg"
               alt="USA flag"
               className="size-12 lg:size-16 shrink-0"
             />
@@ -40,17 +40,17 @@ export default function Hero() {
         {/* Academies */}
         <div className="max-w-full xs:max-w-64 sm:max-w-80 md:max-w-96 lg:max-w-[439px] 2xl:max-w-auto h-8 lg:h-10 2xl:h-auto flex items-center gap-5 sm:gap-7 2xl:gap-10 mt-8 sm:mt-40 lg:mt-32 2xl:mt-24">
           <img
-            src="/public/assets/images/academy-1.svg"
+            src="/public/images/academy-1.svg"
             alt="Academy"
             className="h-full w-1/3 xs:w-fit"
           />
           <img
-            src="/public/assets/images/academy-2.svg"
+            src="/public/images/academy-2.svg"
             alt="Academy"
             className="h-full w-1/3 xs:w-fit"
           />
           <img
-            src="/public/assets/images/academy-3.svg"
+            src="/public/images/academy-3.svg"
             alt="Academy"
             className="h-full w-1/3 xs:w-fit"
           />
@@ -58,7 +58,7 @@ export default function Hero() {
 
         {/* Image Mobile */}
         <img
-          src="/public/assets/images/img-hero.png"
+          src="/public/images/img-hero.png"
           alt="Image"
           className=" sm:hidden w-[261px] h-[428px] mt-3 mx-auto"
         />

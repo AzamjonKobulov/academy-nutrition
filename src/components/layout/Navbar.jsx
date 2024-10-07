@@ -57,12 +57,12 @@ export default function Navbar() {
           <div className="flex items-center gap-5">
             {/* Menu Button */}
             <button className="lg:hidden">
-              <img src="/public/assets/images/icon-menu.svg" alt="Menu Icon" />
+              <img src="/public/images/icon-menu.svg" alt="Menu Icon" />
             </button>
             {/* Logo */}
             <a href="#" className="flex items-center gap-2">
               <img
-                src="/assets/images/logo.svg"
+                src="/public/images/logo.svg"
                 alt="Logo"
                 className="w-[180px] h-9 2xl:w-auto 2xl:h-auto"
               />

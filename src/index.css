@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Felidae";
-  src: url("./public/assets/fonts/felidae/Felidae-Regular.eot");
-  src: url("./public/assets/fonts/felidae/Felidae-Regular.eot?#iefix")
+  src: url("./public/fonts/felidae/Felidae-Regular.eot");
+  src: url("./public/fonts/felidae/Felidae-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("./public/assets/fonts/felidae/Felidae-Regular.woff2") format("woff2"),
-    url("./public/assets/fonts/felidae/Felidae-Regular.woff") format("woff"),
-    url("./public/assets/fonts/felidae/Felidae-Regular.ttf") format("truetype");
+    url("./public/fonts/felidae/Felidae-Regular.woff2") format("woff2"),
+    url("./public/fonts/felidae/Felidae-Regular.woff") format("woff"),
+    url("./public/fonts/felidae/Felidae-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
