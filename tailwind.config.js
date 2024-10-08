@@ -34,6 +34,11 @@ export default {
       boxShadow: {
         dropdown: "0px 4px 8px 0px #00000026",
       },
+      borderRadius: {
+        "22px": "1.375rem",
+        "30px": "1.875rem",
+        "44px": "2.75rem",
+      },
     },
   },
   plugins: [

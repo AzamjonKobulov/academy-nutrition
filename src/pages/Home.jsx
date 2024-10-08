@@ -1,9 +1,15 @@
-import HeroHome from "../components/sections/home/HeroHome";
+import About from "../components/pages/home/sections/About";
+import Certificate from "../components/pages/home/sections/Certificate";
+import Hero from "../components/pages/home/sections/Hero";
+import TrainingFormat from "../components/pages/home/sections/TrainingFormat";
 
 export default function Home() {
   return (
     <>
-      <HeroHome />
+      <Hero />
+      <Certificate />
+      <About />
+      <TrainingFormat />
     </>
   );
 }

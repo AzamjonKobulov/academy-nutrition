@@ -21,4 +21,16 @@
   body {
     @apply font-manrope text-brand-primary;
   }
+
+  h2 {
+    @apply font-felidae text-[2rem] sm:text-[3.25rem] lg:text-7xl 2xl:text-[6rem] tracking-wider leading-8 sm:leading-[3.125rem] lg:leading-[68px] 2xl:leading-[5.6875rem];
+  }
+
+  h3 {
+    @apply font-medium text-[1.375rem] 2xl:text-3xl;
+  }
+
+  section {
+    @apply py-[60px] sm:py-20 lg:py-[120px] 2xl:py-40;
+  }
 }
