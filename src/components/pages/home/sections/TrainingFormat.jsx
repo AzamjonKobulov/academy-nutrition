@@ -27,7 +27,7 @@ export default function TrainingFormat() {
                   {list.map((l) => (
                     <li
                       key={l}
-                      className="flex gap-1.5 sm:gap-3 2xl:gap-4 text-sm sm:text-base 2xl:text-[22px] leading-5 sm:leading-6 2xl:leading-8"
+                      className="flex gap-1.5 sm:gap-3 2xl:gap-4 text-sm sm:text-base 2xl:text-22 leading-5 sm:leading-6 2xl:leading-8"
                     >
                       <svg
                         width="34"
@@ -61,7 +61,7 @@ export default function TrainingFormat() {
               {/* Image */}
               <div className="sm:w-[220px] sm:h-[209px] lg:w-1/2 lg:h-auto shrink-0 rounded-2xl lg:rounded-30px overflow-hidden">
                 <img
-                  src="/public/assets/images/img-girls.png"
+                  src="/assets/images/img-girls.png"
                   alt="Girls"
                   className="w-full h-full object-cover"
                 />
@@ -73,7 +73,7 @@ export default function TrainingFormat() {
               {/* Image */}
               <div className="sm:w-[220px] sm:h-[209px] lg:w-1/2 lg:h-auto shrink-0 rounded-2xl lg:rounded-30px overflow-hidden">
                 <img
-                  src="/public/assets/images/img-books.png"
+                  src="/assets/images/img-books.png"
                   alt="Girls"
                   className="w-full h-full object-cover"
                 />
@@ -82,13 +82,13 @@ export default function TrainingFormat() {
               <div className="space-y-3.5 sm:space-y-5 lg:space-y-8 2xl:space-y-10">
                 <h3>Методология обучения</h3>
 
-                <p className="text-sm sm:text-base 2xl:text-[22px] leading-5 sm:leading-6 2xl:leading-8">
+                <p className="text-sm sm:text-base 2xl:text-22 leading-5 sm:leading-6 2xl:leading-8">
                   Наши курсы созданы для обучения с нуля. Чтобы усвоить
                   материал, необязательно иметь медицинское образование или даже
                   начальные знания о нутрициологии.
                 </p>
 
-                <p className="text-sm sm:text-base 2xl:text-[22px] leading-5 sm:leading-6 2xl:leading-8">
+                <p className="text-sm sm:text-base 2xl:text-22 leading-5 sm:leading-6 2xl:leading-8">
                   Чтобы усвоить материал, необязательно иметь медицинское
                   образование или даже начальные знания о нутрициологии.
                 </p>
@@ -100,7 +100,7 @@ export default function TrainingFormat() {
           <div className="relative flex flex-col md:flex-row justify-between md:items-center md:justify-end md:gap-30px lg:gap-10 xl:gap-16 2xl:gap-20 bg-brand-cream rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden md:p-30px lg:p-10 2xl:p-16">
             {/* BG Image */}
             <img
-              src="/public/assets/images/img-girl-with-laptop.png"
+              src="/assets/images/img-girl-with-laptop.png"
               alt="Image"
               className="h-[340px] md:h-full w-full md:absolute inset-0 object-cover object-[25%] sm:object-center"
             />
@@ -112,7 +112,7 @@ export default function TrainingFormat() {
                   Наши курсы <br /> созданы для <br /> обучения с нуля
                 </h4>
 
-                <p className="text-sm sm:text-base 2xl:text-[22px] leading-5 sm:leading-6 2xl:leading-8">
+                <p className="text-sm sm:text-base 2xl:text-22 leading-5 sm:leading-6 2xl:leading-8">
                   Чтобы усвоить материал, необязательно иметь медицинское
                   образование или даже начальные знания в области диетологии.
                 </p>
@@ -120,7 +120,7 @@ export default function TrainingFormat() {
 
               <Button
                 variant="primary"
-                className="h-[60px] sm:h-16 lg:h-20 lg:text-lg 2xl:text-[22px] font-medium rounded-full mt-5 sm:mt-10"
+                className="h-[60px] sm:h-16 lg:h-20 lg:text-lg 2xl:text-22 font-medium rounded-full mt-5 sm:mt-10"
               >
                 Забронировать место
               </Button>

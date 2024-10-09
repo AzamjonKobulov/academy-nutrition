@@ -20,6 +20,7 @@ export default {
         brand: {
           primary: "#434035",
           cream: "#F4F2EB",
+          "solid-cream": "#D9D5C7",
           orange: "#FFDC94",
           gray: "#E5E4DF",
         },
@@ -38,6 +39,9 @@ export default {
         "22px": "1.375rem",
         "30px": "1.875rem",
         "44px": "2.75rem",
+      },
+      fontSize: {
+        22: "22px",
       },
     },
   },

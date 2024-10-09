@@ -6,13 +6,13 @@ export default function Certificate() {
 
         <div className="w-full h-[496px] sm:h-[460px] lg:h-[520px] 2xl:h-auto relative rounded-2xl sm:rounded-22px lg:rounded-30px overflow-hidden">
           <img
-            src="/public/assets/images/img-certificate.png"
+            src="/assets/images/img-certificate.png"
             alt="Certificate"
             className="w-full h-[55%] xs:h-full object-cover"
           />
 
           {/* Text */}
-          <div className="xs:w-[310px] lg:w-[480px] 2xl:w-[525px] h-[45%] w-full xs:h-auto absolute bottom-0 right-0 space-y-5 text-sm xs:text-base 2xl:text-[22px] text-white bg-brand-primary/70 blur-[20] xs:rounded-tl-44px py-30px px-5 sm:px-30px lg:p-10">
+          <div className="xs:w-[310px] lg:w-[480px] 2xl:w-[525px] h-[45%] w-full xs:h-auto absolute bottom-0 right-0 space-y-5 text-sm xs:text-base 2xl:text-22 text-white bg-brand-primary/70 blur-[20] xs:rounded-tl-44px py-30px px-5 sm:px-30px lg:p-10">
             <svg
               width="64"
               height="64"
