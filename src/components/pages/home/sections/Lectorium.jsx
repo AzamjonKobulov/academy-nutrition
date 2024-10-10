@@ -46,7 +46,7 @@ export default function Lectorium() {
             {/* Block 1 */}
             <Link
               to="/"
-              className="hroup flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+              className="group flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
             >
               {/* Image */}
               <div className="relative w-full sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
