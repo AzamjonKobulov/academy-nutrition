@@ -41,15 +41,15 @@ export default function Articles() {
             </div>
           </div>
 
-          {/* Blocks */}
+          {/* Articles */}
           <div className="grid lg:grid-cols-3 gap-5 sm:gap-30px lg:gap-10 px-30px">
-            {/* Block 1 */}
+            {/* Article 1 */}
             <Link
               to="/"
-              className="group flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
             >
               {/* Image */}
-              <div className="relative w-full sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
+              <div className="relative w-full h-60 sm:h-[260px] sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
                 <img
                   src="/assets/images/img-article-1.png"
                   alt="Image Lektorium"
@@ -57,16 +57,23 @@ export default function Articles() {
                 />
 
                 {/* Date */}
-                <div className="h-10 2xl:h-[52px] w-fit absolute z-10 flex items-center left-6 bottom-0 bg-brand-orange text-22 rounded-t-2xl px-5">
+                <div className="h-10 2xl:h-[52px] w-fit absolute z-10 hidden lg:flex items-center left-6 bottom-0 bg-brand-orange text-22 rounded-t-2xl px-5">
                   06.08.23
                 </div>
               </div>
 
               {/* Texts */}
-              <div className="flex flex-col gap-y-3.5 lg:gap-y-5 pb-4 lg:pt-30px lg:px-3.5">
-                <h4 className="font-medium text-xl 2xl:text-[26px] leading-8 2xl:leading-8">
-                  Как составлять индивидуальный сбалансированный рацион питания
-                </h4>
+              <div className="flex flex-col justify-between gap-2.5 lg:pt-30px lg:px-3.5">
+                <div className="flex flex-col gap-y-3.5 lg:gap-y-5">
+                  {/* Date Mobile */}
+                  <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
+                    06.08.23
+                  </div>
+                  <h4 className="font-medium text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
+                    Как составлять индивидуальный сбалансированный
+                    рацион питания
+                  </h4>
+                </div>
 
                 <div className="flex items-center gap-2.5 text-sm lg:text-lg">
                   <button className="h-9 bg-brand-cream rounded-lg px-2.5">
@@ -74,6 +81,85 @@ export default function Articles() {
                   </button>
                   <button className="h-9 bg-brand-cream rounded-lg px-2.5">
                     Нутрициология
+                  </button>
+                </div>
+              </div>
+            </Link>
+            {/* Article 2 */}
+            <Link
+              to="/"
+              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+            >
+              {/* Image */}
+              <div className="relative w-full h-60 sm:h-[260px] sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
+                <img
+                  src="/assets/images/img-article-2.png"
+                  alt="Image Lektorium"
+                  className="w-full h-full object-cover group-hover:scale-125 transition-all duration-300"
+                />
+
+                {/* Date */}
+                <div className="h-10 2xl:h-[52px] w-fit absolute z-10 hidden lg:flex items-center left-6 bottom-0 bg-brand-orange text-22 rounded-t-2xl px-5">
+                  06.08.23
+                </div>
+              </div>
+
+              {/* Texts */}
+              <div className="flex flex-col justify-between gap-2.5 lg:pt-30px lg:px-3.5">
+                <div className="flex flex-col gap-y-3.5 lg:gap-y-5">
+                  {/* Date Mobile */}
+                  <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
+                    06.08.23
+                  </div>
+                  <h4 className="font-medium text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
+                    Как контролировать свой вес
+                  </h4>
+                </div>
+
+                <div className="flex items-center gap-2.5 text-sm lg:text-lg">
+                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                    Диетология
+                  </button>
+                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                    Рацион
+                  </button>
+                </div>
+              </div>
+            </Link>
+            {/* Article 3 */}
+            <Link
+              to="/"
+              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+            >
+              {/* Image */}
+              <div className="relative w-full h-60 sm:h-[260px] sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
+                <img
+                  src="/assets/images/img-article-3.png"
+                  alt="Image Lektorium"
+                  className="w-full h-full object-cover group-hover:scale-125 transition-all duration-300"
+                />
+
+                {/* Date */}
+                <div className="h-10 2xl:h-[52px] w-fit absolute z-10 hidden lg:flex items-center left-6 bottom-0 bg-brand-orange text-22 rounded-t-2xl px-5">
+                  06.08.23
+                </div>
+              </div>
+
+              {/* Texts */}
+              <div className="flex flex-col justify-between gap-2.5 lg:pt-30px lg:px-3.5">
+                <div className="flex flex-col gap-y-3.5 lg:gap-y-5">
+                  {/* Date Mobile */}
+                  <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
+                    06.08.23
+                  </div>
+                  <h4 className="font-medium text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
+                    Правда о мифах о питании
+                  </h4>
+                </div>
+
+                <div className="flex items-center gap-2.5 text-sm lg:text-lg">
+                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                    Диетология
                   </button>
                 </div>
               </div>
