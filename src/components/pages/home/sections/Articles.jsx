@@ -63,7 +63,7 @@ export default function Articles() {
               </div>
 
               {/* Texts */}
-              <div className="flex flex-col justify-between gap-2.5 lg:pt-30px lg:px-3.5">
+              <div className="flex flex-col justify-between gap-2.5 lg:gap-3.5 lg:pt-30px lg:pb-3 2xl:pb-3.5 lg:px-3.5">
                 <div className="flex flex-col gap-y-3.5 lg:gap-y-5">
                   {/* Date Mobile */}
                   <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
@@ -105,7 +105,7 @@ export default function Articles() {
               </div>
 
               {/* Texts */}
-              <div className="flex flex-col justify-between gap-2.5 lg:pt-30px lg:px-3.5">
+              <div className="flex flex-col justify-between gap-2.5 lg:gap-3.5 lg:pt-30px lg:pb-3 2xl:pb-3.5 lg:px-3.5">
                 <div className="flex flex-col gap-y-3.5 lg:gap-y-5">
                   {/* Date Mobile */}
                   <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
@@ -146,7 +146,7 @@ export default function Articles() {
               </div>
 
               {/* Texts */}
-              <div className="flex flex-col justify-between gap-2.5 lg:pt-30px lg:px-3.5">
+              <div className="flex flex-col justify-between gap-2.5 lg:gap-3.5 lg:pt-30px lg:pb-3 2xl:pb-3.5 lg:px-3.5">
                 <div className="flex flex-col gap-y-3.5 lg:gap-y-5">
                   {/* Date Mobile */}
                   <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
