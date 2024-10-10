@@ -37,6 +37,10 @@
   section {
     @apply py-[60px] sm:py-20 lg:py-[120px] 2xl:py-40;
   }
+
+  input {
+    @apply w-full h-[60px] 2xl:h-20 2xl:text-22 border border-brand-gray rounded-xl 2xl:rounded-2xl outline-none focus:outline focus:outline-brand-primary focus:border-none focus:text-brand-primary/70 px-5 2xl:px-30px;
+  }
 }
 
 .no-scroll::-webkit-scrollbar {

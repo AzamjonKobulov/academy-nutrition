@@ -15,16 +15,17 @@ const buttons = [
 export default function Subscribe() {
   return (
     <section className="bg-brand-cream -mt-[60px] sm:-mt-20 lg:-mt-[120px] 2xl:-mt-40">
-      <div className="container mx-auto space-y-30px sm:space-y-10 lg:space-y-16 2xl:space-y-20">
-        <div className="relative grid grid-cols-2 gap-12 rounded-2xl lg:rounded-[44px] 2xl:rounded-[60px] p-30px lg:p-[60px] 2xl:p-[90px]">
+      <div className="container mx-auto space-y-30px sm:space-y-10 lg:space-y-16 2xl:space-y-20 px-30px">
+        <div className="relative flex flex-col sm:grid grid-cols-2 sm:gap-12 rounded-2xl lg:rounded-[44px] 2xl:rounded-[60px] overflow-hidden after:absolute after:inset-0 after:bg-black/70 sm:p-30px lg:p-[60px] 2xl:p-[90px]">
           {/* BG Image */}
           <img
-            src="/public/assets/images/img-subscribe.jpg"
+            src="/assets/images/img-subscribe.jpg"
             alt="Image"
-            className="sm:absolute inset-0 w-full h-1/2 sm:h-full object-cover"
+            className="absolute sm:inset-0 w-full h-1/2 sm:h-full object-cover object-left sm:object-center"
           />
 
-          <div className="flex flex-col justify-between">
+          {/* Texts */}
+          <div className="relaative z-10 h-full flex flex-col gap-5 justify-between sm:gap-0 py-30px px-5 sm:p-0">
             {/* Title */}
             <div className="space-y-4 text-white">
               <h2>Подписаться</h2>
@@ -34,7 +35,41 @@ export default function Subscribe() {
                 Никакого спама.
               </p>
             </div>
+
+            {/* Socials */}
+            <div className="flex items-center gap-3 lg:gap-5">
+              <a href="#">
+                <img
+                  src="/assets/images/icon-telegram-subscribe.svg"
+                  alt="Telegram Icon"
+                  className="size-[54px] lg:size-[72px] 2xl:size-24"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/assets/images/icon-instagram-subscribe.svg"
+                  alt="Insagram Icon"
+                  className="size-[54px] lg:size-[72px] 2xl:size-24"
+                />
+              </a>
+            </div>
           </div>
+
+          {/* Form */}
+          <form
+            action="#"
+            className="relative z-10 h-1/2 sm:h-auto space-y-5 2xl:space-y-8 bg-white rounded-b-2xl sm:rounded-22px 2xl:rounded-30px p-30px lg:p-8 2xl:p-12"
+          >
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Телефон" />
+            <input type="email" placeholder="Почта" />
+            <Button
+              variant="primary"
+              className="h-[60px] 2xl:h-20 w-full lg:text-lg 2xl:text-22 font-medium rounded-full"
+            >
+              Подписаться
+            </Button>
+          </form>
         </div>
       </div>
     </section>
