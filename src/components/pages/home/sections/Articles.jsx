@@ -47,7 +47,7 @@ export default function Articles() {
               {/* Image */}
               <div className="relative w-full sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
                 <img
-                  src="/public/assets/images/img-article-1.png"
+                  src="/assets/images/img-article-1.png"
                   alt="Image Lektorium"
                   className="w-full h-full object-cover"
                 />

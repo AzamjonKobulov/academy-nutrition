@@ -183,7 +183,7 @@ export default function AcademyPrograms() {
                   </h3>
 
                   <img
-                    src="/public/assets/images/icon-learning-1.svg"
+                    src="/assets/images/icon-learning-1.svg"
                     alt="Icon"
                     className="size-12 xs:size-20 sm:size-12 2xl:size-16"
                   />
@@ -203,7 +203,7 @@ export default function AcademyPrograms() {
                   </h3>
 
                   <img
-                    src="/public/assets/images/icon-learning-2.svg"
+                    src="/assets/images/icon-learning-2.svg"
                     alt="Icon"
                     className="size-12 xs:size-20 sm:size-12 2xl:size-16"
                   />
@@ -223,7 +223,7 @@ export default function AcademyPrograms() {
                   </h3>
 
                   <img
-                    src="/public/assets/images/icon-learning-3.svg"
+                    src="/assets/images/icon-learning-3.svg"
                     alt="Icon"
                     className="size-12 xs:size-20 sm:size-12 2xl:size-16"
                   />
@@ -246,7 +246,7 @@ export default function AcademyPrograms() {
                   </h3>
 
                   <img
-                    src="/public/assets/images/icon-learning-4.svg"
+                    src="/assets/images/icon-learning-4.svg"
                     alt="Icon"
                     className="size-12 xs:size-20 sm:size-12 2xl:size-16"
                   />
@@ -265,7 +265,7 @@ export default function AcademyPrograms() {
                   </h3>
 
                   <img
-                    src="/public/assets/images/icon-learning-5.svg"
+                    src="/assets/images/icon-learning-5.svg"
                     alt="Icon"
                     className="size-12 xs:size-20 sm:size-12 2xl:size-16"
                   />
@@ -284,7 +284,7 @@ export default function AcademyPrograms() {
                   </h3>
 
                   <img
-                    src="/public/assets/images/icon-learning-6.svg"
+                    src="/assets/images/icon-learning-6.svg"
                     alt="Icon"
                     className="size-14 xs:size-24 sm:size-14 2xl:size-[72px]"
                   />
