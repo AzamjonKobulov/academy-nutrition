@@ -46,7 +46,7 @@ export default function Articles() {
             {/* Article 1 */}
             <Link
               to="/"
-              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between lg:justify-start gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
             >
               {/* Image */}
               <div className="relative w-full h-60 sm:h-[260px] sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
@@ -88,7 +88,7 @@ export default function Articles() {
             {/* Article 2 */}
             <Link
               to="/"
-              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between lg:justify-start gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
             >
               {/* Image */}
               <div className="relative w-full h-60 sm:h-[260px] sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
@@ -129,7 +129,7 @@ export default function Articles() {
             {/* Article 3 */}
             <Link
               to="/"
-              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+              className="group flex flex-col-reverse sm:flex-row-reverse lg:flex-col items-stretch sm:justify-between lg:justify-start gap-5 sm:gap-30px lg:gap-0 bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
             >
               {/* Image */}
               <div className="relative w-full h-60 sm:h-[260px] sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
