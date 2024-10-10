@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../../shared/Button";
 
 const buttons = [
@@ -43,13 +44,16 @@ export default function Lectorium() {
           {/* Blocks */}
           <div className="grid lg:grid-cols-2 gap-5 sm:gap-30px lg:gap-10 px-30px">
             {/* Block 1 */}
-            <div className="flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4">
+            <Link
+              to="/"
+              className="hroup flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+            >
               {/* Image */}
               <div className="relative w-full sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
                 <img
                   src="/assets/images/img-lectorium-1.jpg"
                   alt="Image Lektorium"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-125 transition-all duration-300"
                 />
 
                 {/* Date */}
@@ -85,15 +89,18 @@ export default function Lectorium() {
                   </button>
                 </div>
               </div>
-            </div>
+            </Link>
             {/* Block 2 */}
-            <div className="flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4">
+            <Link
+              to="/"
+              className="group flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+            >
               {/* Image */}
               <div className="relative w-full sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
                 <img
                   src="/assets/images/img-lectorium-2.jpg"
                   alt="Image Lektorium"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-125 transition-all duration-300"
                 />
               </div>
 
@@ -112,7 +119,7 @@ export default function Lectorium() {
                   </button>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           {/* Button */}

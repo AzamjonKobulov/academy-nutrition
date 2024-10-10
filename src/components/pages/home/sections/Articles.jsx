@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../../shared/Button";
 
 const buttons = [
@@ -43,13 +44,16 @@ export default function Articles() {
           {/* Blocks */}
           <div className="grid lg:grid-cols-3 gap-5 sm:gap-30px lg:gap-10 px-30px">
             {/* Block 1 */}
-            <div className="flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4">
+            <Link
+              to="/"
+              className="group flex flex-col sm:flex-row lg:flex-col items-stretch bg-white rounded-2xl lg:rounded-22px 2xl:rounded-30px p-5 lg:p-2.5 2xl:p-4"
+            >
               {/* Image */}
               <div className="relative w-full sm:w-[260px] lg:w-auto shrink-0 rounded-2xl lg:rounded-22px 2xl:rounded-30px overflow-hidden">
                 <img
                   src="/assets/images/img-article-1.png"
                   alt="Image Lektorium"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-125 transition-all duration-300"
                 />
 
                 {/* Date */}
@@ -60,7 +64,7 @@ export default function Articles() {
 
               {/* Texts */}
               <div className="flex flex-col gap-y-3.5 lg:gap-y-5 pb-4 lg:pt-30px lg:px-3.5">
-                <h4 className="font-medium   text-xl lg:text-[26px] leading-8 2xl:leading-9">
+                <h4 className="font-medium text-xl 2xl:text-[26px] leading-8 2xl:leading-8">
                   Как составлять индивидуальный сбалансированный рацион питания
                 </h4>
 
@@ -73,7 +77,7 @@ export default function Articles() {
                   </button>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           {/* Button */}
