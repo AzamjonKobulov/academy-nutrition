@@ -42,7 +42,7 @@ export default function Articles() {
           </div>
 
           {/* Articles */}
-          <div className="grid lg:grid-cols-3 gap-5 sm:gap-30px lg:gap-10 px-30px">
+          <div className="grid lg:grid-cols-3 gap-5 sm:gap-30px md:gap-5 2xl:gap-10 px-30px">
             {/* Article 1 */}
             <Link
               to="/"
@@ -69,17 +69,17 @@ export default function Articles() {
                   <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
                     06.08.23
                   </div>
-                  <h4 className="font-medium text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
+                  <h4 className="font-medium text-xl md:text-lg xl:text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
                     Как составлять индивидуальный сбалансированный
                     рацион питания
                   </h4>
                 </div>
 
                 <div className="flex items-center gap-2.5 text-sm lg:text-lg">
-                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                  <button className="h-9 md:text-sm xl:text-base bg-brand-cream rounded-lg px-2.5">
                     Вебинар
                   </button>
-                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                  <button className="h-9 md:text-sm xl:text-base bg-brand-cream rounded-lg px-2.5">
                     Нутрициология
                   </button>
                 </div>
@@ -111,16 +111,16 @@ export default function Articles() {
                   <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
                     06.08.23
                   </div>
-                  <h4 className="font-medium text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
+                  <h4 className="font-medium text-xl md:text-lg xl:text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
                     Как контролировать свой вес
                   </h4>
                 </div>
 
                 <div className="flex items-center gap-2.5 text-sm lg:text-lg">
-                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                  <button className="h-9 md:text-sm xl:text-base bg-brand-cream rounded-lg px-2.5">
                     Диетология
                   </button>
-                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                  <button className="h-9 md:text-sm xl:text-base bg-brand-cream rounded-lg px-2.5">
                     Рацион
                   </button>
                 </div>
@@ -152,13 +152,13 @@ export default function Articles() {
                   <div className="h-10 2xl:h-[52px] w-fit z-10 flex lg:hidden items-center left-6 bottom-0 bg-brand-orange rounded-lg px-3.5">
                     06.08.23
                   </div>
-                  <h4 className="font-medium text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
+                  <h4 className="font-medium text-xl md:text-lg xl:text-xl 2xl:text-[26px] leading-7 2xl:leading-8">
                     Правда о мифах о питании
                   </h4>
                 </div>
 
                 <div className="flex items-center gap-2.5 text-sm lg:text-lg">
-                  <button className="h-9 bg-brand-cream rounded-lg px-2.5">
+                  <button className="h-9 md:text-sm xl:text-base bg-brand-cream rounded-lg px-2.5">
                     Диетология
                   </button>
                 </div>
