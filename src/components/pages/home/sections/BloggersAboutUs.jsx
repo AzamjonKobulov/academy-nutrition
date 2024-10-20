@@ -84,7 +84,7 @@ export default function BloggersAboutUs() {
                     </a>
                     <div className="flex items-center gap-2">
                       <img
-                        src="/public/assets/images/icon-user.svg"
+                        src="/assets/images/icon-user.svg"
                         alt="Followers Icon"
                         className="size-4 2xl:size-5 shrink-0"
                       />
