@@ -58,7 +58,7 @@ export default function FindOutBenefits() {
         <div className="relative flex flex-col lg:grid grid-cols-2 gap-30px lg:gap-12 rounded-2xl lg:rounded-[44px] 2xl:rounded-[60px] overflow-hidden after:absolute after:inset-0 after:bg-black/70 sm:p-30px lg:p-[60px] 2xl:p-[90px]">
           {/* BG Image */}
           <img
-            src="/public/assets/images/bg-findout.jpg"
+            src="/assets/images/bg-findout.jpg"
             alt="Image"
             className="absolute sm:inset-0 w-full h-1/2 sm:h-full object-cover object-left sm:object-center"
           />
@@ -116,12 +116,12 @@ export default function FindOutBenefits() {
               </div>
             </div>
             {/* USA Flag & Anna */}
-            <div className="flex items-center">
+            <div className="hidden lg:flex items-center">
               <div className="size-[72px] shrink-0 rounded-full overflow-hidden">
-                <img src="/public/assets/images/img-flag-usa.svg" alt="Flag" />
+                <img src="/assets/images/img-flag-usa.svg" alt="Flag" />
               </div>
               <div className="size-[72px] shrink-0 rounded-full overflow-hidden -ml-3">
-                <img src="/public/assets/images/img-about.png" alt="Anna" />
+                <img src="/assets/images/img-about.png" alt="Anna" />
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function FindOutBenefits() {
               </div>
 
               <div className="flex flex-col sm:flex-row justify-center items-center gap-3 bg-brand-cream rounded-2xl py-4 px-[22px]">
-                <img src="/public/assets/images/icon-girl.svg" alt="Icon" />
+                <img src="/assets/images/icon-girl.svg" alt="Icon" />
                 <p className="text-center sm:text-start">
                   98 студентов уже записались на обучение
                 </p>
@@ -170,14 +170,14 @@ export default function FindOutBenefits() {
               className="flex items-center gap-5 cursor-pointer"
             >
               {/* Checkbox */}
-              <div className="size-8 shrink-0 grid place-content-center border border-brand-gray rounded">
+              <div className="size-6 sm:size-8 shrink-0 grid place-content-center border border-brand-gray rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-6 hidden"
+                  className="size-4 sm:size-6 hidden"
                 >
                   <path
                     strokeLinecap="round"

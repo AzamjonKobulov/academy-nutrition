@@ -2,10 +2,12 @@ import About from "../components/pages/home/sections/About";
 import AboutDoctor from "../components/pages/home/sections/AboutDoctor";
 import AcademyPrograms from "../components/pages/home/sections/AcademyPrograms";
 import Articles from "../components/pages/home/sections/Articles";
+import BigBlock from "../components/pages/home/sections/BigBlock";
 import Certificate from "../components/pages/home/sections/Certificate";
 import Faq from "../components/pages/home/sections/Faq";
 import FindOutBenefits from "../components/pages/home/sections/FindOutBenefits";
 import FromAuthor from "../components/pages/home/sections/FromAuthor";
+import GiftCertificate from "../components/pages/home/sections/GiftCertificate";
 import Hero from "../components/pages/home/sections/Hero";
 import Lectorium from "../components/pages/home/sections/Lectorium";
 import Methods from "../components/pages/home/sections/Methods";
@@ -32,6 +34,8 @@ export default function Home() {
       <GlobalCommunityOfStudents />
       <Faq />
       <FindOutBenefits />
+      <BigBlock />
+      <GiftCertificate />
     </>
   );
 }
