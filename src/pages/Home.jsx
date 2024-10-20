@@ -3,6 +3,7 @@ import AboutDoctor from "../components/pages/home/sections/AboutDoctor";
 import AcademyPrograms from "../components/pages/home/sections/AcademyPrograms";
 import Articles from "../components/pages/home/sections/Articles";
 import BigBlock from "../components/pages/home/sections/BigBlock";
+import BloggersAboutUs from "../components/pages/home/sections/BloggersAboutUs";
 import Certificate from "../components/pages/home/sections/Certificate";
 import Faq from "../components/pages/home/sections/Faq";
 import FindOutBenefits from "../components/pages/home/sections/FindOutBenefits";
@@ -36,6 +37,7 @@ export default function Home() {
       <FindOutBenefits />
       <BigBlock />
       <GiftCertificate />
+      <BloggersAboutUs />
     </>
   );
 }

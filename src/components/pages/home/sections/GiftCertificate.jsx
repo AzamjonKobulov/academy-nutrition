@@ -37,7 +37,7 @@ export default function GiftCertificate() {
         <img
           src="/assets/images/img-gift-certificate.svg"
           alt="Certificate"
-          className="hidden lg:block"
+          className="hidden lg:block w-full"
         />
       </div>
     </section>

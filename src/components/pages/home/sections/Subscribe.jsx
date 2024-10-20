@@ -14,7 +14,7 @@ const buttons = [
 
 export default function Subscribe() {
   return (
-    <section className="bg-brand-cream -mt-[60px] sm:-mt-20 lg:-mt-[120px] 2xl:-mt-40">
+    <section className="bg-brand-cream section-minus">
       <div className="container mx-auto space-y-30px sm:space-y-10 lg:space-y-16 2xl:space-y-20 px-30px">
         <div className="relative flex flex-col sm:grid grid-cols-2 sm:gap-12 rounded-2xl lg:rounded-[44px] 2xl:rounded-[60px] overflow-hidden after:absolute after:inset-0 after:bg-black/70 sm:p-30px lg:p-[60px] 2xl:p-[90px]">
           {/* BG Image */}

@@ -15,7 +15,7 @@ const buttons = [
 
 export default function Articles() {
   return (
-    <section className="bg-brand-cream -mt-[60px] sm:-mt-20 lg:-mt-[120px] 2xl:-mt-40">
+    <section className="bg-brand-cream section-minus">
       <div className="container mx-auto space-y-30px sm:space-y-10 lg:space-y-16 2xl:space-y-20">
         <h2 className="px-30px">Статьи</h2>
 

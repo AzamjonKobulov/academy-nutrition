@@ -1,6 +1,6 @@
 export default function Methods() {
   return (
-    <section className="bg-brand-cream -mt-[60px] sm:-mt-20 lg:-mt-[120px] 2xl:-mt-40">
+    <section className="bg-brand-cream section-minus">
       <div className="container mx-auto grid lg:grid-cols-3 gap-5 sm:gap-30px md:gap-10 px-30px">
         {/* 1 */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-1 gap-5 bg-white rounded-22px overflow-hidden p-2.5 sm:p-5 lg:p-2.5 2xl:p-4">

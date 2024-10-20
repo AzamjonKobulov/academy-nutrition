@@ -43,6 +43,10 @@
   }
 }
 
+.section-minus {
+  @apply -mt-[60px] sm:-mt-20 lg:-mt-[120px] 2xl:-mt-40;
+}
+
 .no-scroll::-webkit-scrollbar {
   @apply w-0 h-0;
 }

@@ -1,6 +1,6 @@
 export default function GlobalCommunityOfStudents() {
   return (
-    <section className="bg-brand-cream -mt-[60px] sm:-mt-20 lg:-mt-[120px] 2xl:-mt-40">
+    <section className="bg-brand-cream section-minus">
       <div className="container mx-auto flex flex-col lg:flex-row lg:items-stretch lg:justify-between gap-30px lg:gap-[60px] 2xl:gap-40 lg:px-30px">
         {/* Titles & Text */}
         <div className="lg:max-w-[401px] 2xl:max-w-[507px] flex flex-col lg:gap-40 2xl:gap-[60px] lg:gap-y-20 px-30px">
