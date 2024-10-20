@@ -60,9 +60,9 @@ export default function Subscribe() {
             action="#"
             className="relative z-10 h-1/2 sm:h-auto space-y-5 2xl:space-y-8 bg-white rounded-b-2xl sm:rounded-22px 2xl:rounded-30px p-30px lg:p-8 2xl:p-12"
           >
-            <input type="text" placeholder="Имя" />
-            <input type="text" placeholder="Телефон" />
-            <input type="email" placeholder="Почта" />
+            <input type="text" placeholder="Имя" className="base-input" />
+            <input type="text" placeholder="Телефон" className="base-input" />
+            <input type="email" placeholder="Почта" className="base-input" />
             <Button
               variant="primary"
               className="h-[60px] 2xl:h-20 w-full lg:text-lg 2xl:text-22 font-medium rounded-full"

@@ -38,11 +38,44 @@
     @apply py-[60px] sm:py-20 lg:py-[120px] 2xl:py-40;
   }
 
-  input {
+  .base-input {
     @apply w-full h-[60px] 2xl:h-20 2xl:text-22 border border-brand-gray rounded-xl 2xl:rounded-2xl outline-none focus:outline focus:outline-brand-primary focus:border-none focus:text-brand-primary/70 px-5 2xl:px-30px;
   }
 }
 
 .no-scroll::-webkit-scrollbar {
   @apply w-0 h-0;
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-brand-gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the handle on hover */
+}
+
+/* Optional: Style for the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; /* Background color of the corner */
+}
+
+input[type="checkbox"]:checked + label div svg {
+  @apply block;
+}
+
+input[type="checkbox"]:checked + label div {
+  @apply bg-brand-orange;
 }

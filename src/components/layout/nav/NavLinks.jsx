@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 
-import useClickOutside from "../../../hooks/useClickOutside";
+import LinksDropdown from "../../layout/nav/LinksDropdown";
 
 const dropdownLinks = [
   "Нутрициология для жизни",
@@ -14,8 +14,6 @@ const dropdownLinks = [
 
 export default function NavLinks() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const dropdownRef = useClickOutside(() => setDropdownOpen(false));
 
   function toggleDropdown() {
     setDropdownOpen((open) => !open);
@@ -57,39 +55,10 @@ export default function NavLinks() {
         {/* Dropdown Content */}
         <AnimatePresence>
           {dropdownOpen && (
-            <motion.div
-              initial={{ y: -100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -100, opacity: 0 }}
-              transition={{ duration: 0.2, ease: "easeInOut" }}
-              className="w-80 lg:w-[360px] absolute top-16 -left-full bg-white rounded-xl shadow-dropdown p-6"
-              ref={dropdownRef}
-            >
-              <div className="relative w-full h-full ">
-                <svg
-                  width="10"
-                  height="5"
-                  viewBox="0 0 10 5"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute -top-7 left-1/2 -translate-x-1/2"
-                >
-                  <path d="M0 5L5 0L10 5H0Z" fill="white" />
-                </svg>
-                <ul className="space-y-3.5 2xl:space-y-5">
-                  {dropdownLinks.map((link) => (
-                    <li key={link}>
-                      <Link
-                        to="/"
-                        className="hover:underline underline-offset-4 hover:font-semibold transition-all duration-300"
-                      >
-                        {link}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </motion.div>
+            <LinksDropdown
+              links={dropdownLinks}
+              onDropdownOpen={setDropdownOpen}
+            />
           )}
         </AnimatePresence>
       </li>

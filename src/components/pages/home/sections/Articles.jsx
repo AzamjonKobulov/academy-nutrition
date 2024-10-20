@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 import Button from "../../../shared/Button";
+import TagButton from "../../../shared/TagButton";
 
 const buttons = [
-  "#Все",
-  "#Нутрициология",
-  "#Рацион",
-  "#Диетология",
-  "#Программа",
-  "#Практика",
-  "#Коммьюнити",
-  "#Обучение",
+  "Все",
+  "Нутрициология",
+  "Рацион",
+  "Диетология",
+  "Программа",
+  "Практика",
+  "Коммьюнити",
+  "Обучение",
 ];
 
 export default function Articles() {
@@ -24,19 +25,7 @@ export default function Articles() {
           <div className="no-scroll max-w-min overflow-auto">
             <div className="min-w-max flex sm:flex-wrap gap-2.5">
               {buttons.map((btn, idx) => (
-                <Button
-                  key={idx}
-                  variant={idx === 0 ? "primary" : "outline"}
-                  className={`h-10 sm:h-12 lg:h-[60px] 2xl:h-20 2xl:text-22 rounded-xl 2xl:rounded-2xl ${
-                    idx === 0
-                      ? "ml-30px"
-                      : idx === buttons.length - 1
-                      ? "mr-30px"
-                      : ""
-                  } px-2 sm:px-3 lg:px-[18px] 2xl:px-6`}
-                >
-                  {btn}
-                </Button>
+                <TagButton key={idx} idx={idx} btn={btn} buttons={buttons} />
               ))}
             </div>
           </div>
@@ -170,7 +159,7 @@ export default function Articles() {
           <div className="flex items-center justify-center">
             <Button
               variant="outline"
-              className="h-16 lg:h-[77px] 2xl:h-[98px] 2xl:text-22 font-medium whitespace-nowrap rounded-full px-6 lg:px-8"
+              className="h-16 lg:h-[77px] 2xl:h-[98px] 2xl:text-22 font-medium whitespace-nowrap rounded-full px-6 lg:px-16"
             >
               Все статьи
             </Button>
