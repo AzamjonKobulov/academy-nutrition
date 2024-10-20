@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useMemo } from "react";
-import { AnimatePresence } from "framer-motion"; // Import Framer Motion
 import Button from "../../../shared/Button";
-import ListBox from "../ListBox";
+
+import ListBox from "../Listbox";
 
 export default function FindOutBenefits() {
   const options = useMemo(
