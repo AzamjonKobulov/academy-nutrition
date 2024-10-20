@@ -83,7 +83,11 @@ export default function BloggersAboutUs() {
                       @{blogger.nickname}
                     </a>
                     <div className="flex items-center gap-2">
-                      <img src="/assets/images/icon-user.svg" alt="" />
+                      <img
+                        src="/public/assets/images/icon-user.svg"
+                        alt="Followers Icon"
+                        className="size-4 2xl:size-5 shrink-0"
+                      />
                       <span>{blogger.followers} подписчиков</span>
                     </div>
                   </div>
