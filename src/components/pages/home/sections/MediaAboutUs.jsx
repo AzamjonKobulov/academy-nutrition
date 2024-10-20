@@ -28,11 +28,11 @@ const bloggers = [
   },
 ];
 
-export default function BloggersAboutUs() {
+export default function MediaAboutUs() {
   return (
     <section className="bg-brand-cream -mt-[60px] sm:-mt-20 lg:-mt-[90px] 2xl:-mt-32">
       <div className="container mx-auto space-y-30px sm:space-y-10 lg:space-y-[60px] 2xl:space-y-20 px-30px">
-        <h2>Блогеры о нас</h2>
+        <h2>Сми о нас</h2>
 
         {/* Blogers */}
         <div className="grid lg:grid-cols-3 gap-5 sm:gap-30px lg:gap-10">

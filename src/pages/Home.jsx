@@ -11,6 +11,7 @@ import FromAuthor from "../components/pages/home/sections/FromAuthor";
 import GiftCertificate from "../components/pages/home/sections/GiftCertificate";
 import Hero from "../components/pages/home/sections/Hero";
 import Lectorium from "../components/pages/home/sections/Lectorium";
+import MediaAboutUs from "../components/pages/home/sections/MediaAboutUs";
 import Methods from "../components/pages/home/sections/Methods";
 import Reviws from "../components/pages/home/sections/Reviews";
 import Subscribe from "../components/pages/home/sections/Subscribe";
@@ -38,6 +39,7 @@ export default function Home() {
       <BigBlock />
       <GiftCertificate />
       <BloggersAboutUs />
+      <MediaAboutUs />
     </>
   );
 }
