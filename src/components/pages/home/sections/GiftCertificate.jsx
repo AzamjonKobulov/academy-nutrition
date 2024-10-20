@@ -11,13 +11,13 @@ export default function GiftCertificate() {
 
           {/* Image Mobile */}
           <img
-            src="/assets/images/img-gift-certificate-mobile.png"
+            src="/assets/images/img-gift-certificate-mobile.svg"
             alt="Certificate"
             className="xs:hidden w-full"
           />
 
           <img
-            src="/assets/images/img-gift-certificate.png"
+            src="/assets/images/img-gift-certificate.svg"
             alt="Certificate"
             className="hidden xs:block lg:hidden"
           />
@@ -35,7 +35,7 @@ export default function GiftCertificate() {
         </div>
 
         <img
-          src="/assets/images/img-gift-certificate.png"
+          src="/assets/images/img-gift-certificate.svg"
           alt="Certificate"
           className="hidden lg:block"
         />
