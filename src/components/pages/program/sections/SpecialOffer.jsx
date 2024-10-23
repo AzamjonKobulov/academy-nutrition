@@ -38,7 +38,7 @@ export default function SpecialOffer() {
                 {offerBenefits.map((benefit, idx) => (
                   <li key={idx} className="flex items-center gap-3 lg:gap-2.5">
                     <img
-                      src="/public/assets/images/icon-tick.svg"
+                      src="/assets/images/icon-tick.svg"
                       alt="Tick"
                       className="size-[22px] lg:size-8 shrink-0"
                     />
@@ -78,7 +78,7 @@ export default function SpecialOffer() {
 
               <div className="h-14 lg:h-[60px] 3xl:h-[85px] flex items-center justify-center gap-3 bg-brand-orange rounded-2xl py-4 px-[22px]">
                 <img
-                  src="/public/assets/images/img-clock.png"
+                  src="/assets/images/img-clock.png"
                   alt="clock"
                   className="size-8 lg:size-9 3xl:size-12 shrink-0"
                 />
@@ -100,7 +100,7 @@ export default function SpecialOffer() {
                 alt="Attention Icon"
                 className="size-7 lg:size-[34px] 3xl:size-12 shrink-0"
               />
-              <p className="text-xs lg:text-sm lg:text-22">
+              <p className="text-xs md:text-sm 3xl:text-22 3xl:!leading-7">
                 Важно: укажите телефон, на котором есть WhatsApp или Telegram.
               </p>
             </div>
