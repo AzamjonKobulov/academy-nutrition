@@ -4,7 +4,7 @@ export default function Anna() {
       <div className="container flex flex-col sm:flex-row gap-4 sm:gap-5 lg:gap-10 mx-auto sm:py-16 px-30px">
         {/* Anna's Image */}
         <div className="size-20 sm:size-[103px] lg:size-[153px] 3xl:size-[233px] shrink-0 rounded-full overflow-hidden">
-          <img src="/public/assets/images/img-hero-program.jpg" alt="" />
+          <img src="/assets/images/img-hero-program.jpg" alt="" />
         </div>
 
         {/* Texts */}
@@ -15,7 +15,7 @@ export default function Anna() {
           <div className="w-[90%] h-[90%] hidden sm:block absolute -bottom-5 left-10 z-10 bg-brand-cream rotate-[5deg] rounded-30px"></div>
           {/* Overlay Image Mobile */}
           <img
-            src="/public/assets/images/img-overlay-text-anna.png"
+            src="/assets/images/img-overlay-text-anna.png"
             alt="Overlay"
             className="absolute w-[90%] left-1/2 -translate-x-1/2 h-full -bottom-5"
           />
