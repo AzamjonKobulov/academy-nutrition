@@ -6,10 +6,10 @@ import { AnimatePresence } from "framer-motion";
 import LinksDropdown from "../../layout/nav/LinksDropdown";
 
 const dropdownLinks = [
-  "Нутрициология для жизни",
-  "Нутрициология и диетология",
-  "Нутрициология и диетология для спортсменов",
-  "Вегетарианство",
+  { link: "Нутрициология для жизни", url: "/program" },
+  { link: "Нутрициология и диетология", url: "" },
+  { link: "Нутрициология и диетология для спортсменов", url: "" },
+  { link: "Вегетарианство", url: "" },
 ];
 
 export default function NavLinks() {

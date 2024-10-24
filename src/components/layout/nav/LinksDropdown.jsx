@@ -31,11 +31,11 @@ export default function LinksDropdown({ links, setDropdownOpen }) {
           {links.map((link) => (
             <li key={link}>
               <Link
-                to="/"
+                to={link.url}
                 className="hover:underline underline-offset-4 hover:font-semibold transition-all duration-300"
                 onClick={() => setDropdownOpen(false)}
               >
-                {link}
+                {link.link}
               </Link>
             </li>
           ))}
