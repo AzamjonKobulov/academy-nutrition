@@ -6,10 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import LinksDropdown from "../../layout/nav/LinksDropdown";
 
 const dropdownLinks = [
-  {
-    link: "Нутрициология для жизни",
-    url: "https://academy-nutrition.vercel.app/program",
-  },
+  { link: "Нутрициология для жизни", url: "/program" },
   { link: "Нутрициология и диетология", url: "" },
   { link: "Нутрициология и диетология для спортсменов", url: "" },
   { link: "Вегетарианство", url: "" },
