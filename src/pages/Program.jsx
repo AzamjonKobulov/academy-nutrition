@@ -3,8 +3,11 @@ import Anna from "../components/pages/program/sections/Anna";
 import FeedbackAndCases from "../components/pages/program/sections/FeedbackAndCases";
 import ForWhomThisCourse from "../components/pages/program/sections/ForWhomThisCourse";
 import Hero from "../components/pages/program/sections/Hero";
+import HowTrainingProceed from "../components/pages/program/sections/HowTrainingProceed";
+import SkillsIGain from "../components/pages/program/sections/SkillsIGain";
 import SpecialOffer from "../components/pages/program/sections/SpecialOffer";
 import StudyingIn from "../components/pages/program/sections/StudyingIn";
+import TrainingProgram from "../components/pages/program/sections/TrainingProgram";
 import GlobalCommunityOfStudents from "../components/shared/sections/GlobalCommunityOfStudents";
 
 export default function Program() {
@@ -26,6 +29,9 @@ export default function Program() {
       <div className="section-minus">
         <SpecialOffer />
       </div>
+      <TrainingProgram />
+      <SkillsIGain />
+      <HowTrainingProceed />
     </>
   );
 }
