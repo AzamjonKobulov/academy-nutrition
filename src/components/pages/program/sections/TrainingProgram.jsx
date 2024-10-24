@@ -11,7 +11,7 @@ const infoData = [
       "Питание без запретов",
       "Принципы приемов пищи",
     ],
-    icon: "/public/assets/images/icon-infolist-1.svg",
+    icon: "/assets/images/icon-infolist-1.svg",
   },
   {
     type: "info",
@@ -23,7 +23,7 @@ const infoData = [
       "Питание без запретов",
       "Принципы приемов пищи",
     ],
-    icon: "/public/assets/images/icon-infolist-2.svg",
+    icon: "/assets/images/icon-infolist-2.svg",
   },
   {
     type: "info",
@@ -35,7 +35,7 @@ const infoData = [
       "Питание без запретов",
       "Принципы приемов пищи",
     ],
-    icon: "/public/assets/images/icon-infolist-3.svg",
+    icon: "/assets/images/icon-infolist-3.svg",
   },
   {
     type: "info",
@@ -47,7 +47,7 @@ const infoData = [
       "Питание без запретов",
       "Принципы приемов пищи",
     ],
-    icon: "/public/assets/images/icon-infolist-4.svg",
+    icon: "/assets/images/icon-infolist-4.svg",
   },
   {
     type: "info",
@@ -59,7 +59,7 @@ const infoData = [
       "Питание без запретов",
       "Принципы приемов пищи",
     ],
-    icon: "/public/assets/images/icon-infolist-5.svg",
+    icon: "/assets/images/icon-infolist-5.svg",
   },
   {
     type: "info",
@@ -71,7 +71,7 @@ const infoData = [
       "Питание без запретов",
       "Принципы приемов пищи",
     ],
-    icon: "/public/assets/images/icon-infolist-6.svg",
+    icon: "/assets/images/icon-infolist-6.svg",
   },
 ];
 
@@ -92,7 +92,7 @@ export default function TrainingProgram() {
               <div className="flex items-center justify-between">
                 <p className="font-bold text-22 3xl:text-30">29</p>
                 <img
-                  src="/public/assets/images/icon-tick.svg"
+                  src="/assets/images/icon-tick.svg"
                   alt="Tick"
                   className="size-[22px] 3xl:size-8 shrink-0"
                 />
@@ -106,7 +106,7 @@ export default function TrainingProgram() {
               <div className="flex items-center justify-between">
                 <p className="font-bold text-22 3xl:text-30">98%</p>
                 <img
-                  src="/public/assets/images/icon-tick.svg"
+                  src="/assets/images/icon-tick.svg"
                   alt="Tick"
                   className="size-[22px] 3xl:size-8 shrink-0"
                 />
