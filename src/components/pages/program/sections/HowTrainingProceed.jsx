@@ -81,7 +81,7 @@ export default function HowTrainingProceed() {
             {/* Image */}
             <div className="h-full rounded-22px overflow-hidden">
               <img
-                src="/public/assets/images/img-step.png"
+                src="/assets/images/img-step.png"
                 alt=""
                 className="w-full h-full object-cover"
               />

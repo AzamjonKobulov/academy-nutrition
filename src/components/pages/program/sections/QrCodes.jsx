@@ -4,8 +4,8 @@ export default function QrCodes() {
       <div className="container mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-y-10 sm:gap-x-5 lg:gap-7 3xl:gap-10 px-30px">
         {/* Texts */}
         <div className="sm:col-span-2 lg:col-span-1 flex flex-col justify-between space-y-10 pb-2.5 sm:pb-0">
-          <div className="flex flex-col sm:flex-row lg:flex-col sm:items-end lg:items-start justify-between sm:justify-start gap-x-5 gap-y-30px">
-            <div className="max-w-[358px] space-y-5 sm:space-y-7 3xl:space-y-10">
+          <div className="h-full flex flex-col sm:flex-row lg:flex-col sm:items-end lg:items-start justify-between sm:justify-start gap-x-5 gap-y-30px">
+            <div className="sm:max-w-[358px] lg:max-w-none space-y-5 sm:space-y-7 3xl:space-y-10">
               <h2>Остались вопросы?</h2>
               <p>
                 Чтобы забронировать место или если у вас остались вопросы,
@@ -13,7 +13,7 @@ export default function QrCodes() {
               </p>
             </div>
 
-            <div className="w-fit flex items-center gap-6 bg-brand-orange rounded-2xl sm:rounded-22px 3xl:rounded-30px 3xl:mt-24 p-4 sm:p-[22px] 3xl:p-30px">
+            <div className="h-fit w-fit flex items-center gap-6 bg-brand-orange rounded-2xl sm:rounded-22px 3xl:rounded-30px lg:mt-auto p-4 sm:p-[22px] 3xl:p-30px">
               <p className="font-bold">
                 Отсканируйте QR код или <br /> нажмите на него
               </p>
@@ -41,9 +41,9 @@ export default function QrCodes() {
           className="bg-white rounded-22px 3xl:rounded-30px p-5 3xl:p-30px"
         >
           <img
-            src="/public/assets/images/img-qr-telegram.png"
+            src="/assets/images/img-qr-telegram.png"
             alt="Telegram QR code"
-            className="w-full h-full"
+            className="w-full"
           />
         </a>
 
@@ -53,9 +53,9 @@ export default function QrCodes() {
           className="bg-white rounded-22px 3xl:rounded-30px p-5 3xl:p-30px"
         >
           <img
-            src="/public/assets/images/img-qr-whatsapp.png"
+            src="/assets/images/img-qr-whatsapp.png"
             alt="Telegram QR code"
-            className="w-full h-full"
+            className="w-full"
           />
         </a>
       </div>

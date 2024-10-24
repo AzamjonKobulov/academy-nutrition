@@ -10,6 +10,7 @@ import StudyingIn from "../components/pages/program/sections/StudyingIn";
 import TrainingProgram from "../components/pages/program/sections/TrainingProgram";
 import GlobalCommunityOfStudents from "../components/shared/sections/GlobalCommunityOfStudents";
 import QrCodes from "../components/pages/program/sections/QrCodes";
+import EducationBestGift from "../components/pages/program/sections/EducationBestGift";
 
 export default function Program() {
   return (
@@ -34,6 +35,7 @@ export default function Program() {
       <SkillsIGain />
       <HowTrainingProceed />
       <QrCodes />
+      <EducationBestGift />
     </>
   );
 }
