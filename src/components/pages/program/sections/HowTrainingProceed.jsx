@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Button from "../../../shared/Button";
+
 const steps = [
   {
     stepNum: 1,
@@ -134,6 +136,15 @@ export default function HowTrainingProceed() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="flex items-center justify-center px-30px sm:px-0">
+          <Button
+            variant="primary"
+            className="h-[59px] lg:h-[73px] 3xl:h-[101px] w-full sm:w-auto lg:w-fit font-medium text-sm lg:text-lg 3xl:text-2xl whitespace-nowrap rounded-full px-4 lg:px-8 2xl:px-16"
+          >
+            Начать обучение
+          </Button>
         </div>
       </div>
     </section>
